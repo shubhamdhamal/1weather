@@ -28,6 +28,15 @@ function Ktoc(K) {
 }
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+    
+    
+    
+    
+    
+    
+    
+    
+    
     const city = search.value;
     if (city) {
         getWeatherByLocation(city)
